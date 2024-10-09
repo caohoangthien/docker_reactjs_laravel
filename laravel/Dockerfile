@@ -15,6 +15,4 @@ COPY . .
 
 RUN composer install
 
-RUN php artisan serve
-
 CMD ["php-fpm"]
